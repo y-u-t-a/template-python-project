@@ -1,0 +1,14 @@
+{
+	"name": "${localWorkspaceFolderBasename}",
+	"image": "python:3.9-buster",
+	"extensions": [
+		"ms-python.python"
+	],
+	"settings": {
+		"python.autoComplete.extraPaths":[
+			"/usr/local/lib/python3.9/site-packages",
+			"./",
+		],
+		"python.pythonPath": "/usr/local/bin/python",
+	},
+}
